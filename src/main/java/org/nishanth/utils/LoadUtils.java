@@ -41,4 +41,14 @@ public class LoadUtils {
 //        products.add(titanProduct);
 //        products.add(sonataProduct);
 //    }
+
+    private static ArrayList<Category> categories=new ArrayList<>();
+    private static ArrayList<Product> products=new ArrayList<>();
+    public static ArrayList<Category> getCategories() {
+        return categories;
+    }
+
+    public static ArrayList<Product> getProducts() {
+        return products;
+    }
 }

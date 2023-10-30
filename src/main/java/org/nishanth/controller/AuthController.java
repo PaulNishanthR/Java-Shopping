@@ -24,6 +24,7 @@ public class AuthController implements IAuthController {
     private final AppController appController;
     private final LoginPage loginPage;
     private final RegisterPage registerPage;
+    private final AppException appException=null;
 
 
     public AuthController(AppController appController) {

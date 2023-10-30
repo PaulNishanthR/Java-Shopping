@@ -13,6 +13,7 @@ public class HomePage {
 //        }catch (InterruptedException e){
 //            throw new RuntimeException(e);
 //        }
+        println(StringUtil.HOME_MENU);
 
     }
 }

@@ -6,11 +6,20 @@ import org.nishanth.utils.AppException;
 
 public class Product {
     private int id;
-    private String title;
+    private static String title;
     private String description;
     private double price;
     private int stocks;
     private Category category;
+
+    public Product(int id, String title, String description, double price, int stocks, Category category) {
+        this.id = id;
+        this.title = title;
+        this.description = description;
+        this.price = price;
+        this.stocks = stocks;
+        this.category = category;
+    }
 
     public int getId() {
         return id;
@@ -20,7 +29,7 @@ public class Product {
         this.id = id;
     }
 
-    public String getTitle() {
+    public static String getTitle() {
         return title;
     }
 

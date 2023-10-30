@@ -1,4 +1,4 @@
-id,title,price,stocks,category
+id,Title,price,stocks,category
 1,redmi,1000,5,mobileCategory
 2,vivo,1500,5,mobileCategory
 3,titan,100,3,watchCategory

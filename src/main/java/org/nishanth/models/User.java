@@ -12,11 +12,11 @@ public class User {
     private ArrayList<Order> userOrders;
 
 
-    public Cart getCart() {
+    public Cart getUserCart() {
         return userCart;
     }
 
-    public void setCart(Cart cart) {
+    public void setUserCart(Cart cart) {
         this.userCart = cart;
     }
 

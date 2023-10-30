@@ -6,6 +6,9 @@ public class CartProduct {
     private Product product;
     private int count;
 
+    public CartProduct(Product userProduct, int i) {
+    }
+
     public Product getProduct() {
         return product;
     }
